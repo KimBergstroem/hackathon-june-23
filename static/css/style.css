@@ -98,7 +98,6 @@ div.nav-wrapper.red.accent-2>* {
 }
 
 /* Homepage content css */
-
 .landing_page_container {
   background-color: #ff5252;
   height: 75vh;
@@ -155,7 +154,6 @@ div.nav-wrapper.red.accent-2>* {
   --s: 0.45em;
   /* size of the corner */
   --color: #373b44;
-
   padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
   color: var(--color);
   --_p: var(--s);
@@ -166,9 +164,7 @@ div.nav-wrapper.red.accent-2>* {
   outline: var(--b) solid #0000;
   outline-offset: 0.6em;
   font-size: 16px;
-
   border: 0;
-
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
@@ -215,7 +211,6 @@ div.nav-wrapper.red.accent-2>* {
 }
 
 /* We're here for you section css */
-
 .third_section {
   margin-top: -8%;
   margin-bottom: 5%;
@@ -237,7 +232,6 @@ div.nav-wrapper.red.accent-2>* {
 }
 
 /* Reach out section css */
-
 .text-box {
   font-family: "Josefin Sans", sans-serif;
   background-color: rgb(188, 91, 188);
@@ -279,7 +273,6 @@ div.nav-wrapper.red.accent-2>* {
 }
 
 /* footer css */
-
 .footer {
   background-color: #114069;
   padding: 20px;
@@ -680,7 +673,7 @@ details[open] summary {
   }
 }
 
-/* Media query for 76px tablet screen */
+/* Media query for 768px tablet screen */
 
 @media screen and (max-width: 768px) {
   .landing_page_container {

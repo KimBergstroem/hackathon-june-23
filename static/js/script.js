@@ -1,6 +1,6 @@
 // Frontend Developers here you will write all the code for JavaScript.
 // Delete the placeholder below and start coding.
-// Godd Luck!
+// Good Luck!
 
 $(document).ready(function() {
   var sideNavInstance = $('.sidenav').sidenav();
@@ -35,7 +35,6 @@ window.onbeforeunload = () => {
     form.reset();
   }
 };
-
 
 $(document).ready(function () {
   $('.carousel').carousel();

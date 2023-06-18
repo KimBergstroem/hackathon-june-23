@@ -8,82 +8,90 @@ Delete the placeholder below and start coding.
 Code should be between { block content } and { endblock }
 Good Luck! -->
 
-<div class="landing_page_container comtainer nav-wrapper row">
-  <!-- hero-section -->
-  <div class="grid-example col s12 m6 left-align">
-    <p>
-      Embracing mental well-being,
-      Supporting the LGTB+ community
-    </p>
-  </div>
-  <div class="row">
-    <div class="col circle_images hide-on-small-only circle_1 s1 offset-s7 right-align">
-      <!-- Image 1 -->
-      <img class="circle responsive-img" src="{% static 'media/pride_month.jpg'%}" alt="Image 1">
-    </div>
-    <div class="circle_images circle_2 hide-on-small-only col s1 m6 right-align">
-      <!-- Image 2 -->
-      <img class="circle responsive-img" src="{% static 'media/circle_landing.jpg'%}" alt="Image 2">
-    </div>
-  </div>
-</div>
-<!-- History of pride -->
-<div class="card row" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
-  <h1 class="center-align">Histories of Pride</h1>
-  <div class="card-content">
-    <span class="card-title activator grey-text text-darken-4">
+<!-- Hero section -->
+<section>
+  <div class="landing_page_container comtainer nav-wrapper row">
+    <div class="grid-example col s12 m6 left-align">
       <p>
-        Welcome to our LGBT+ Mental Health website,
-        where we aim to honor the rich tapestry of stories and history within the LGBT+ community.
-        Throughout time, the LGBT+ community has faced unique challenges and triumphs,
-        forging a path towards greater understanding, acceptance, and resilience.
-        We recognize the courage it takes to navigate mental health issues within a society that
-        has not always provided the support our community deserves. This website serves as a platform
-        to shed light on the diverse experiences, amplify voices, and provide resources to foster mental
-        well-being within our vibrant and resilient LGBT+ community. Together, let us celebrate our past,
-        embrace our present, and build a brighter future where every individual can thrive.
+        Embracing mental well-being,
+        Supporting the LGTB+ community
       </p>
-  </div>
-  <div class="history_button center-align">
-    <a href="{% url 'history_page' %}" class="black-text button-89">Discover More!</a>
-  </div>
-</div>
-<!-- support 24/7 section -->
-<div class="container">
-  <div class="row" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
-    <div class="col s12 center-align third_section">
-      <h1 class="black-text">We're here for you,</h1>
-      <h3 class="black-text">24/7</h3>
-      <p class="center-align">Our goal is to provide a safe and inclusive space where you can find support,
-        understanding, and valuable resources.</p>
+    </div>
+    <div class="row">
+      <div class="col circle_images hide-on-small-only circle_1 s1 offset-s7 right-align">
+        <!-- Image 1 -->
+        <img class="circle responsive-img" src="{% static 'media/pride_month.jpg'%}" alt="Image 1">
+      </div>
+      <div class="circle_images circle_2 hide-on-small-only col s1 m6 right-align">
+        <!-- Image 2 -->
+        <img class="circle responsive-img" src="{% static 'media/circle_landing.jpg'%}" alt="Image 2">
+      </div>
     </div>
   </div>
-</div>
+</section>
+<!-- History of pride -->
+<section>
+  <div class="card row" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+    <h1 class="center-align">Histories of Pride</h1>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">
+        <p>
+          Welcome to our LGBT+ Mental Health website,
+          where we aim to honor the rich tapestry of stories and history within the LGBT+ community.
+          Throughout time, the LGBT+ community has faced unique challenges and triumphs,
+          forging a path towards greater understanding, acceptance, and resilience.
+          We recognize the courage it takes to navigate mental health issues within a society that
+          has not always provided the support our community deserves. This website serves as a platform
+          to shed light on the diverse experiences, amplify voices, and provide resources to foster mental
+          well-being within our vibrant and resilient LGBT+ community. Together, let us celebrate our past,
+          embrace our present, and build a brighter future where every individual can thrive.
+        </p>
+    </div>
+    <div class="history_button center-align">
+      <a href="{% url 'history_page' %}" class="black-text button-89">Discover More!</a>
+    </div>
+  </div>
+</section>
+<!-- support 24/7 section -->
+<section>
+  <div class="container">
+    <div class="row" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+      <div class="col s12 center-align third_section">
+        <h1 class="black-text">We're here for you,</h1>
+        <h3 class="black-text">24/7</h3>
+        <p class="center-align">Our goal is to provide a safe and inclusive space where you can find support,
+          understanding, and valuable resources.</p>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- reach out support -->
-<div class="row">
-  <div class="col s12">
-    <div class="help_section">
-      <div class="row">
-        <div class="col s12 m6">
-          <img data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" src="{% static 'media/group.jpg'%}"
-            alt="Image" class="responsive-img">
-        </div>
-        <div class="col s12 m6">
-          <div class="text-box center-align">
-            <h2 data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">Reach Out</h2>
-            <p class="right-align">Remember, you are not alone. We are here to support you every step of the way.
-              Visit our Resources page and discover the wealth of information and support available to you. Together,
-              we can promote mental wellness and create a stronger, healthier LGBT+ community.</p>
-            <div class="resources_button">
-              <a href="{% url 'resources_page' %}"
-                class="waves-effect waves-light btn white black-text black-border">Talk to us</a>
+<section>
+  <div class="row">
+    <div class="col s12">
+      <div class="help_section">
+        <div class="row">
+          <div class="col s12 m6">
+            <img data-aos="fade-up" data-aos-duration="2000" data-aos-once="true" src="{% static 'media/group.jpg'%}"
+              alt="Image" class="responsive-img">
+          </div>
+          <div class="col s12 m6">
+            <div class="text-box center-align">
+              <h2 data-aos="fade-down" data-aos-duration="2000" data-aos-once="true">Reach Out</h2>
+              <p class="right-align">Remember, you are not alone. We are here to support you every step of the way.
+                Visit our Resources page and discover the wealth of information and support available to you. Together,
+                we can promote mental wellness and create a stronger, healthier LGBT+ community.</p>
+              <div class="resources_button">
+                <a href="{% url 'resources_page' %}"
+                  class="waves-effect waves-light btn white black-text black-border">Talk to us</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 
 {% endblock %}
