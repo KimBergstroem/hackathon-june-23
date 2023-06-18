@@ -49,7 +49,7 @@ You can view the live site here: [Spectrumind](https://spectrumind-9674c855da30.
   * [Acknowledgments](#acknowledgments)
 
 ---
-<!--> Completed <--> 
+
 ## User Experience (UX)
 
 A group of unlikely coders with various abilities came together to produce a website dedicated to representing the LGBTQ+ community and bring awareness to others about the struggles encountered by the community throughout history and up to the current day.
@@ -61,84 +61,97 @@ Key information for the site
 •	What can we do to help people who struggle to understand their role in the community.
 •	When do events happen throughout the year that promote awareness.
 
-<!--> Completed <--> 
 ### User Stories
 
-Client Goals
-•	To be able to view the site on a range of device sizes.
-•	To make it easy for people who wish to learn more about the LGBTQ+ community and make the site more accessible and understandable.
-•	To make the content and information clear, easy and concise for all users.
-•	To provide accessible and user-friendly links that help those in need of council.  
-First Time Visitor Goals
-•	I want to find out more about the LGBTQ+ community and how I can support them.
-•	I want to be able to easily navigate through the website's pages, so that I can find the information I'm looking for.
-•	I want to be able to find their social media profiles with ease.
-Returning Visitor Goals
-•	I want to find up to date information on current LGBTQ+ news and events.
-•	I want to be able to find necessary links to get help or find someone to talk to, so that I can get help if needed for my mental health.
-Frequent Visitor Goals
-•	I want to be able to follow current events regarding the LGBTQ+ community.
+**Users Goals**
 
+*	To be able to view the site on a range of device sizes.
+*	To make it easy for people who wish to learn more about the LGBTQ+ community and make the site more accessible and understandable.
+*	To make the content and information clear, easy and concise for all users.
+*	To provide accessible and user-friendly links that help those in need of council.  
+First Time Visitor Goals
+*	I want to find out more about the LGBTQ+ community and how I can support them.
+*	I want to be able to easily navigate through the website's pages, so that I can find the information I'm looking for.
+*	I want to be able to find their social media profiles with ease.
+Returning Visitor Goals
+*	I want to find up to date information on current LGBTQ+ news and events.
+*	I want to be able to find necessary links to get help or find someone to talk to, so that I can get help if needed for my mental health.
+Frequent Visitor Goals
+*	I want to be able to follow current events regarding the LGBTQ+ community.
+
+**Admin Goals**
+
+*	Create an early deployment to be able to deliver early results to client and users following Agile principles.
+*	Set up the backend so i can able to create a site admin dashboard and manage page.
 
 ## Design
-<!--> Completed <--> 
+
 ### Colour Scheme
 
-We wanted to choose colours that reflected the environment, so we have chosen a variety of blues, purples and pinks for our site.
-![Colour Palette](https://coolors.co/ff5252-e1bee7-114069-c2dfe8-bc5bbc)
-<!--> Completed <--> 
+The color palette comprising FF5252 (red), E1BEE7 (pink), 114069 (navy blue), C2DFE8 (light blue), and BC5BBC (purple) was selected for the project "SpectrumInd" to represent LGBTQ pride for several reasons. Firstly, the color red (FF5252) is often associated with love, passion, and solidarity, reflecting the strong emotions and sense of unity within the LGBTQ community. The pink shade (E1BEE7) symbolizes inclusivity, tenderness, and understanding, promoting a welcoming atmosphere for diverse identities. Navy blue (114069) signifies strength and stability, highlighting the resilience and courage of LGBTQ individuals. Light blue (C2DFE8) represents serenity, tranquility, and harmony, underscoring the peaceful coexistence and acceptance of different sexual orientations and gender identities. Lastly, purple (BC5BBC) embodies creativity, pride, and diversity, reflecting the unique and vibrant spectrum of LGBTQ experiences. Together, this color palette embodies the values of the LGBTQ community and visually represents the pride and celebration of their identities within the "SpectrumInd" project.
+![Colour Palette](static/media/readme_images/spectrumind.png)
+
 ### Typography
 
 Google Fonts was used for the following fonts
 
 Amatic and Josefin fonts are the main fonts used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Amatic and Josefin are clean fonts used frequently in programming, so they are both attractive and appropriate.
-<!--> Completed <--> 
+
 ### Imagery
 
 All images used on this project are free copyrights. They are used within the site has been chosen to showcase the LGBTQ+ community. The images are also used to add visual interest to the website and to help break up different sections of the page. Imagery is relevant to the content and mission of the website and is also appropriately sized and optimized for web use to ensure fast page loading times. 
-<!--> To DO <--> 
+
 ### Wireframes
 
-Add the images or links for your wireframes here.
+All of the mock up designs for the web app were created using [Figma](https://www.figma.com/), a popular design tool known for its versatility and collaborative features. During design stage was kept in mind the principles of UX (User Experience) and UI (User Interface) design throughout the process to ensure that designs are intuitive, user-friendly, and visually appealing. Additionally, the mock up designs are responsive and optimized for use on tablets and mobile devices, to provide a seamless experience across different screen sizes. Personally, I find it very helpful to create a mockup design rather than a wireframe when I began a project, it helps a lot with styling, colours, layout during development.
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
+<details><summary>Home Page:</summary>
+<img src="static/media/readme_images/home_page_mockup.jpg" alt="home page mock up design">
+</details>
+<details><summary>History Page:</summary>
+<img src="static/media/readme_images/history_page.png" alt="history page mock up design">
+</details>
+<details><summary>Resources Page:</summary>
+<img src="static/media/readme_images/resources.png" alt="resources page mock up design">
+</details>
+<details><summary>Contact Page:</summary>
+<img src="static/media/readme_images/contact.png" alt="contact page mock up design">
+</details>
 
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+--- 
 
-<!--> Completed <--> 
 ## Features
 
-The website is comprised of four pages, three of which are accessible from the navigation menu (home page, books page & contact us page). The fourth page is a contact page that allows the user to submit their details to show support for the community.
+**Home Page**
+### Navbar
+On the landing page, users will be presented with a visually appealing and user-friendly navbar positioned at the very top. This navbar contains all the necessary links and accessibility options for easy navigation and is fully responsive. On the very left side is positioned the Logo of the website. Navbar is kept same in all the pages for ease of navigation.
+![Navbar](static/media/readme_images/navbar.png)
 
-Home Page.
-•	Includes a stories of pride section that gives a short paragraph explaining the objective of the website and a Discover more link that takes you to a more in depth description of the overall goal of the website.
-•	We’re here for you section to reassure our ongoing availability to those who need help.
-•	A reach out section containing a short paragraph advising the user to visit the resource page and allow easy access to our contact page through a talk to us button.
-History page- The navigation link for historical stories and famous figures in history:
-•	A heading containing relevant question about the long historical existence of the LGBTQ+
-•	Pictures containing famous historical figures that shaped our world and changed the perception in society and influenced many people during their lives. 
-•	A heading of moments to be remembered 
-•	Images and paragraphs pertaining to a very important time and event in the history of the LGBTQ+ community, the Stonewall Riots, and Marsha Johnson a prominent leader for the community.
-Resources Page
-•	A heading containing the question “How can we help each other?”
-•	A section that focuses on Acceptance with a link to a guide on relevant topics and a picture of a woman hugging herself to indicate acceptance of oneself.
-•	A section that focuses on Supportive with a link to a guide on relevant topics and a picture of a man giving the thumbs up to indicate support or encouragement.
-•	A section that focuses on Understanding with a carousel of various links to guides and information on relevant topics and pictures of people in the pose of thought to indicate inquisitiveness.
+### Hero Section
+Creating a strong first impression with the user is crucial, and to achieve this, a hero image with 100% screen width and 60% screen height was employed. This hero image acts as an introduction to site, displaying two distinct images accompanied by engaging heading that effectively communicate the purpose and essence of the web app. The design is fully responsive, ensuring seamless adaptation. 
+![hero-section](static/media/readme_images/hero-image.png)
 
-Contact Page.
-•	A heading containing “Your voice matters: LGBTQ+ Awareness” where the LGTBQ+ is in the iconic rainbow colors.
-•	A let us reach out to you section, whereby the user inputs first and last name and their email with any special request and we can get back to them as soon as possible. A picture containing a relevant scene to the right of the contact section.
-•	A FAQ- Question & Answers section that allows users easy access to informative sites, friendly and welcoming establishments as well as promotional sites to strengthen awareness and involvement of the user.
-Future Implementations.
+### Histories of Pride
+Histories of Pride is another feature on home page providing to users more information about LGBTQ+ community and sharing the story journey. This section is center aligned and has a button to redirect to histroy page in order to get more information about this community.
+![histories of pride](static/media/readme_images/pride-history.png)
 
-<!--> Completed <--> 
-### General features on each page
+### Reach out
+A vry important feature laying on home page is reachout to us section. This section consists on an image representin pride with colours and smiles, showing the importance of staying healthy and happy by being accepted. 'Talk to us' button will redirect to Resources page for additional professional resources seeking help about mental health and wellness.
+![reach out](static/media/readme_images/reach-out.png)
 
-All Pages on the website have:
-•	A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is an image of the Spectrumind logo as well as the Spectrumind text closer to the center. To the right of the navigation bar are the links to the websites pages (Home, History, Resources and Contact). To allow a good user experience of the site, the Spectrumind text is hidden with a media query on mobile devices to prevent the navigation bar looking cluttered. When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
-•	A footer which contains social media icon links to Instagram, LinkedIn and github. There is also an envelope icon which takes the user to the contact us page. Icons were used to keep the footer clean and because they are universally recognisable.
+### Footer
 
-<!--> To DO <--> 
+Footer is another feature used on this website. It always stick to the bottom of the page with a strong blue background which aligns well with LGBTQ+ flag colours. This feature contains all team members who worked to built this site and their links to GitHub and LinkedIn profiles. As well includes copyrights and the team name Binary uNICORNS. 
+![footer](static/media/readme_images/footer.png)
+
+---
+
+**History Page**
+
+### History section
+On the second page which is History page user will be presented 
+![Navbar](static/media/readme_images/history.png)
+
 ### Future Implementations
 
 What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
