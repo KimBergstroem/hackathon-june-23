@@ -225,7 +225,7 @@ Code Institute have an amazing channel for all things accessibility (a11y-access
 
 ## Testing
 
-A number of manual tests were carried out on this project by all members:
+A number of several manual tests were carried out on this project by all members. Due to lack of time was impossible to apply proper manual test or automated tests but pverall funcionality was cheked and main features making sure they all work properly:
  
 ### Manual Testing
 
@@ -256,15 +256,9 @@ A number of manual tests were carried out on this project by all members:
 ### Automated Testing
 **`Lighthouse`** 
 
-Website has been tested with google lighthouse and the result is as below.
+Website has been tested with google lighthouse and the result is as below. In future is place to improve accessibility and performance. This website has a great SEO=100.
 
-  ![Lighthouse Validation](docs/validation/w3c/picture-goes-here.jpg)
-
-**`JSHint`** 
-
-  ![JSHint Validation](static/media/readme-jshint.jpg)
-
-&nbsp;
+![Lighthouse validation](static/media/readme_images/lighthouse.png)
 
 [Back to top ⇧](#contents)
 
@@ -385,11 +379,16 @@ DEFAULT_FILE_STORAGE =
 
 ###  Acknowledgments
 
-- Thank you to all the team member for the hard work and cooperation.
-  - **Edmir Demaj** - [GitHub](https://github.com/Edmir-Demaj), [LinkedIn](https://www.linkedin.com/in/edmir-demaj-42a501196)
-  - **Jody Murray** - [GitHub](https://github.com/JodyMurray), [LinkedIn](https://www.linkedin.com/in/jody-murray-4b6818234/)
-  - **Ignas Pilybas** - [GitHub](https://github.com/ignasvilkas), [LinkedIn](https://www.linkedin.com/in/ignaspilybas/)
-  - **Kim Bergstrom** - [GitHub](https://github.com/KimBergstroem), [LinkedIn](https://www.linkedin.com/in/kim-bergstrom-47704b5b/)
-  - **Mark Young** - [GitHub](https://github.com/Markyjay), [LinkedIn](https://www.linkedin.com/in/mark-young-4a90ab15/)
+- **Thank you to all the team member for the hard work and cooperation.**
 
-This section will call out each team member for a particularly valuable contribution to the project
+  - **Edmir Demaj** - [GitHub](https://github.com/Edmir-Demaj), [LinkedIn](https://www.linkedin.com/in/edmir-demaj-42a501196)
+  Scrum Master/ Backend / Documentation
+  - **Jody Murray** - [GitHub](https://github.com/JodyMurray), [LinkedIn](https://www.linkedin.com/in/jody-murray-4b6818234/)
+  Design/ Frontend / Documentation
+  - **Ignas Pilybas** - [GitHub](https://github.com/ignasvilkas), [LinkedIn](https://www.linkedin.com/in/ignaspilybas/)
+  Design/ Frontend / Documentation
+  - **Kim Bergstrom** - [GitHub](https://github.com/KimBergstroem), [LinkedIn](https://www.linkedin.com/in/kim-bergstrom-47704b5b/)
+   Design/ Frontend / Documentation
+  - **Mark Young** - [GitHub](https://github.com/Markyjay), [LinkedIn](https://www.linkedin.com/in/mark-young-4a90ab15/)
+   Design/ Frontend / Documentation
+
