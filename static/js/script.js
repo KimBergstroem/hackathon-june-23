@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   // Add event listener to close the sidenav on hamburger button click
   $('.sidenav-trigger').on('click', function() {
-    sideNavInstance.sidenav('toggle');
+    sideNavInstance.sidenav('open');
   });
 
   // Add event listener to close the sidenav on overlay click, except for link clicks
@@ -18,7 +18,7 @@ $(document).ready(function() {
   });
   // Add event listener to close the sidenav on hamburger button click
   $('.sidenav-trigger').on('click', function() {
-    sideNavInstance.sidenav('toggle');
+    sideNavInstance.sidenav('open');
   });
 
   // Add event listener to close the sidenav on overlay click, except for link clicks
