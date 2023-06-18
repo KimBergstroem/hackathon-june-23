@@ -63,7 +63,7 @@ nav {
   height: 5rem;
 }
 
-div.nav-wrapper.red.accent-2 > * {
+div.nav-wrapper.red.accent-2>* {
   padding-top: 1rem;
 }
 
@@ -159,13 +159,9 @@ div.nav-wrapper.red.accent-2 > * {
   padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
   color: var(--color);
   --_p: var(--s);
-  background: conic-gradient(
-      from 90deg at var(--b) var(--b),
+  background: conic-gradient(from 90deg at var(--b) var(--b),
       #0000 90deg,
-      var(--color) 0
-    )
-    var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p))
-    calc(100% - var(--b) - 2 * var(--_p));
+      var(--color) 0) var(--_p) var(--_p) / calc(100% - var(--b) - 2 * var(--_p)) calc(100% - var(--b) - 2 * var(--_p));
   transition: 0.3s linear, color 0s, background-color 0s;
   outline: var(--b) solid #0000;
   outline-offset: 0.6em;
@@ -405,15 +401,13 @@ div.nav-wrapper.red.accent-2 > * {
   margin: 1rem 0;
   height: 30px;
   border: none;
-  background: linear-gradient(
-    to right,
-    #ff0018,
-    #ffa52c,
-    #ffff41,
-    #008018,
-    #0000f9,
-    #86007d
-  );
+  background: linear-gradient(to right,
+      #ff0018,
+      #ffa52c,
+      #ffff41,
+      #008018,
+      #0000f9,
+      #86007d);
 }
 
 .rainbow {
@@ -486,6 +480,7 @@ input[type="submit"] {
   border-radius: 8px;
   cursor: pointer;
 }
+
 input[type="submit"]:hover {
   background-color: #ff8a7f;
 }
@@ -536,10 +531,16 @@ details[open] summary {
   font-weight: 600;
 }
 
+.error-404 {
+  width: 100vw;
+  height: 70vh;
+}
+
 /* --------------------------------------------------- Contact page styles */
 
 /* For large screens sizes from 2560px wide and down */
 @media screen and (max-width: 2560px) {
+
   .navbar a,
   .navbar .team-name {
     font-size: 40px;
@@ -581,6 +582,7 @@ details[open] summary {
 
 /* For large screens sizes from 1440px wide and down */
 @media screen and (min-width: 1280px) and (max-width: 1800px) {
+
   .navbar a,
   .navbar .team-name {
     font-size: 25px;
@@ -621,6 +623,7 @@ details[open] summary {
 
 /* Media query for large screens */
 @media (min-width: 881px) and (max-width: 1024px) {
+
   .navbar a,
   .navbar .team-name {
     font-size: 20px;
@@ -775,13 +778,14 @@ details[open] summary {
   .landing_page_container p {
     margin-top: 10%;
   }
+
   .card {
     height: 40%;
     margin-top: 0;
     width: 390px;
     margin-left: 9%;
     margin-top: -40px;
-}
+  }
 
   .card h1 {
     font-size: 45px;
@@ -803,7 +807,7 @@ details[open] summary {
     font-size: 30px;
     width: 90%;
     margin-left: 5%;
-    
+
   }
 
   .help_section img {
@@ -823,7 +827,7 @@ details[open] summary {
   }
 }
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
   .landing_page_container {
     width: auto;
   }
@@ -846,6 +850,7 @@ details[open] summary {
   .card {
     margin-left: 8.6%;
   }
+
   .third_section p {
     width: auto;
   }
@@ -853,7 +858,7 @@ details[open] summary {
   .text-box {
     width: auto;
   }
-  
+
   .text-box p {
     font-size: larger;
   }
