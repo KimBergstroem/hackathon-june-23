@@ -10,7 +10,7 @@
 3. **Well-being and Empowerment:** Spectrumind believes in the power of holistic well-being. We aim to empower individuals by providing tools, resources, and guidance that promote self-care, personal growth, and resilience. Our goal is to nurture a community where mental, emotional, and physical well-being are prioritized, leading to a stronger and more vibrant community overall.
 
 You can view the live site here: [Spectrumind](https://spectrumind-9674c855da30.herokuapp.com/)
-![Screenshot showcasing the responsive design of my web app](static/media/readme_images/responsive.png)
+![Screenshot showcasing the responsive design of my web app](static/media/readme_images/responsive-devices.png)
 ---
 
 ## CONTENTS
