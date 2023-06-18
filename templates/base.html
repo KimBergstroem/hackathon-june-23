@@ -29,37 +29,37 @@
 </head>
 
 <body>
-  <div class="navbar-fixed navbar">
-    <!-- Navbar -->
-    <nav>
-      <div class="nav-wrapper red accent-2">
-        <img src="{% static 'media/logo.png'%}" class="circle responsive-img logo hide-on-med-and-down" alt="LOGO" />
-        <a href="{% url 'home_page' %}" class="brand-logo team-name center-align left">Spectrumind</a>
+  <!-- Header -->
+  <header>
+    <div class="navbar-fixed navbar">
+      <!-- Navbar -->
+      <nav>
+        <div class="nav-wrapper red accent-2">
+          <img src="{% static 'media/logo.png'%}" class="circle responsive-img logo hide-on-med-and-down" alt="LOGO" />
+          <a href="{% url 'home_page' %}" class="brand-logo team-name center-align left"
+            aria-label="website name with link to home page">Spectrumind</a>
+          <!-- Navbar links for large screens -->
+          <ul class="right hide-on-med-and-down s12">
+            <li><a href="{% url 'home_page' %}" aria-label="navbar link to home page">Home</a></li>
+            <li><a href="{% url 'history_page' %}" aria-label="navbar link to history page">History</a></li>
+            <li><a href="{% url 'resources_page' %}" aria-label="navbar link to resources page">Resources</a></li>
+            <li><a href="{% url 'contact_page' %}" aria-label="navbar link to contact page">Contact</a></li>
+          </ul>
+          <!-- Sidenav trigger for small screens -->
+          <a href="#" data-target="mobile-demo" class="right hide-on-large-only sidenav-trigger"><i
+              class="fa-solid fa-bars" aria-label="hamburger button to open side navbar"></i></a>
+        </div>
 
-        <!-- Navbar links for large screens -->
-        <ul class="right hide-on-med-and-down s12">
-          <li><a href="{% url 'home_page' %}">Home</a></li>
-          <li><a href="{% url 'history_page' %}">History</a></li>
-          <li><a href="{% url 'resources_page' %}">Resources</a></li>
-          <li><a href="{% url 'contact_page' %}">Contact</a></li>
+        <!-- Sidenav content for small screens -->
+        <ul id="mobile-demo" class="sidenav sidenav-content" style="background-color: #ffb134; height: 100vh;">
+          <li><a href="{% url 'home_page' %}" aria-label="navbar link to home page">Home</a></li>
+          <li><a href="{% url 'history_page' %}" aria-label="navbar link to history page">History</a></li>
+          <li><a href="{% url 'resources_page' %}" aria-label="navbar link to resources page">Resources</a></li>
+          <li><a href="{% url 'contact_page' %}" aria-label="navbar link to contact page">Contact</a></li>
         </ul>
-
-        <!-- Sidenav trigger for small screens -->
-        <a href="#" data-target="mobile-demo" class="right hide-on-large-only sidenav-trigger"><i
-            class="fa-solid fa-bars"></i></a>
-      </div>
-
-      <!-- Sidenav content for small screens -->
-      <ul id="mobile-demo" class="sidenav sidenav-content" style="background-color: #ffb134; height: 100vh;">
-        <li><a href="{% url 'home_page' %}">Home</a></li>
-        <li><a href="{% url 'history_page' %}">History</a></li>
-        <li><a href="{% url 'resources_page' %}">Resources</a></li>
-        <li><a href="{% url 'contact_page' %}">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
-
-  <!-- Header end -->
+      </nav>
+    </div>
+  </header>
 
   <!-- Main start -->
   <main>
@@ -70,51 +70,62 @@
   <!-- Main end -->
 
   <!-- Footer start -->
-  <!-- Define the footer -->
   <footer class="footer">
     <h3 style="color: #ffffff; font-size: 4rem;">Meet Our Fantastic Team!</h3>
     <div class="team-members">
+      <!-- team member 1 -->
       <div class="team-member">
-        <img src="{% static 'media/jody.png'%}" alt="Team Member 1">
+        <img src="{% static 'media/jody.png'%}" alt="Jody avatar image">
         <div class="social-icons">
           <span style="color: #ffffff; font-size: 2rem;">Jody</span>
-          <a href="https://github.com/JodyMurray" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/jody-murray-4b6818234/" target="_blank"><i
-              class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/JodyMurray" target="_blank" aria-label="footer link to Jody github profile"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/jody-murray-4b6818234/" target="_blank"
+            aria-label="footer link to Jody linkedin profile"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
+      <!-- team member 2 -->
       <div class="team-member">
-        <img src="{% static 'media/kim.png'%}" alt="Team Member 2">
+        <img src="{% static 'media/Kim.jpg'%}" alt="Kim avatar image">
         <div class="social-icons">
           <span style="color: #ffffff; font-size: 2rem;">Kim</span>
-          <a href="https://github.com/KimBergstroem" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/kim-bergstrom-47704b5b/" target="_blank"><i
-              class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/KimBergstroem" target="_blank" aria-label="footer link to Kim github profile"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/kim-bergstrom-47704b5b/" target="_blank"
+            aria-label="footer link to Kim linkedin profile"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
+      <!-- team member 3 -->
       <div class="team-member">
-        <img src="{% static 'media/edmir.jpg'%}" alt="Team Member 3">
+        <img src="{% static 'media/edmir.jpg'%}" alt="Edmir avatar image">
         <div class="social-icons">
           <span style="color: #ffffff; font-size: 2rem;">Edmir</span>
-          <a href="https://github.com/Edmir-Demaj" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/edmir-demaj-software-developer/" target="_blank"><i
-              class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Edmir-Demaj" target="_blank" aria-label="footer link to Edmir github profile"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/edmir-demaj-software-developer/" target="_blank"
+            aria-label="footer link to Edmir linkedin profile"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
+      <!-- team member 4 -->
       <div class="team-member">
-        <img src="{% static 'media/mark.jpeg'%}" alt="Team Member 4">
+        <img src="{% static 'media/mark.jpeg'%}" alt="Mark avatar image">
         <div class="social-icons">
           <span style="color: #ffffff; font-size: 2rem;">Mark</span>
-          <a href="https://github.com/Markyjay" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/team-member-4" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Markyjay" target="_blank" aria-label="footer link to Mark github profile"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/team-member-4" target="_blank"
+            aria-label="footer link to Mark linkedin profile"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
+      <!-- team member 5 -->
       <div class="team-member">
-        <img src="{% static 'media/ignas.png'%}" alt="Team Member 5">
+        <img src="{% static 'media/ignas.png'%}" alt="Ignas avatar image">
         <div class="social-icons">
           <span style="color: #ffffff; font-size: 2rem;">Ignas</span>
-          <a href="https://github.com/ignasvilkas" target="_blank"><i class="fab fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/ignaspilybas/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/ignasvilkas" target="_blank" aria-label="footer link to Ignas github profile"><i
+              class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/ignaspilybas/" target="_blank"
+            aria-label="footer link to Ignas linkedin profile"><i class="fab fa-linkedin"></i></a>
         </div>
       </div>
     </div>
@@ -125,7 +136,6 @@
       </div>
     </div>
   </footer>
-
   <!-- Footer end -->
 
   <!-- jquery link -->
@@ -134,10 +144,11 @@
   <script src="{% static 'js/script.js' %}"></script>
   <!-- animation link -->
   <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
-  <!-- font awesome link -->
+  <!-- font awesome js link -->
   <script src="https://kit.fontawesome.com/9b64cea43d.js" crossorigin="anonymous"></script>
-  <!-- Materialize javascript link -->
+  <!-- materialize javascript link -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- script to initialize animation library -->
   <script>
     AOS.init();
   </script>
