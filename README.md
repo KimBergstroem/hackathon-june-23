@@ -17,6 +17,7 @@ You can view the live site here: [Spectrumind](https://spectrumind-9674c855da30.
 
 * [User Experience](#user-experience-ux)
   * [User Stories](#user-stories)
+  * [Agile Methodology](#agile-methodology)
 
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
@@ -79,6 +80,20 @@ Frequent Visitor Goals
 
 *	Create an early deployment to be able to deliver early results to client and users following Agile principles.
 *	Set up the backend so i can able to create a site admin dashboard and manage page.
+
+### Agile methodology
+
+The Agile methodology was chosen for this project to ensure flexibility and responsiveness to changes that may arise during the development process. It is used Github and the Project Board to implement Agile practices. User stories were initially entered into the 'To Do' column on the Kanban board, which served as the project's backlog. As development progressed, user stories were moved into the 'In Progress' column. Once a user story was fully developed, it was moved to the 'Done' column. This process allowed for continuous development and testing, with the ability to pivot and make changes as needed. Overall, the use of Agile methodology and the Kanban board in Github was effective in keeping the work organized and on task, resulting in a successful project.
+
+Please find GitHub Kanban Board with User Stories and Tasks [here.](https://github.com/users/Edmir-Demaj/projects/5)
+
+<details><summary>Please view the Issues:</summary>
+<img src="static/media/readme_images/issues.png" alt="issues and user stories">
+</details>
+
+<details><summary>Please view Milestone project:</summary>
+<img src="static/media/readme_images/milestone.jpg" alt="Milestone project">
+</details>
 
 ## Design
 
