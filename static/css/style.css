@@ -534,7 +534,8 @@ details[open] summary {
 
 .image-container img {
   max-width: 80vw;
-  max-height: 80vh;
+  max-height: 70vh;
+  margin-bottom: 2rem;
 }
 
 /* --------------------------------------------------- Contact page styles */
