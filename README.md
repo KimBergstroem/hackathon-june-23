@@ -74,7 +74,7 @@ Returning Visitor Goals
 *	I want to find up to date information on current LGBTQ+ news and events.
 *	I want to be able to find necessary links to get help or find someone to talk to, so that I can get help if needed for my mental health.
 Frequent Visitor Goals
-*	I want to be able to follow current events regarding the LGBTQ+ community.
+*	I want to be able to follow current events regarding the LGBTQ+ community..
 
 **Admin Goals**
 
